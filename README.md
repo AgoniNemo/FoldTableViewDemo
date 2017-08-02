@@ -10,6 +10,12 @@
 pod 'FoldTableView', '~> 1.0.9'
 ```
 
+### FoldTableViewDemo使用
+```
+//需要运行以下命令安装
+pod install
+```
+
 ### USE
 ```
 let tableView = FoldTableView.init(frame: CGRect(x:0,y:0,width:375,height:667),style: .plain);
