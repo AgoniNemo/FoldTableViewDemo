@@ -24,7 +24,7 @@ self.view.addSubview(tableView);
 ### FoldTableViewDelegate
 
 ```
-	//多少组
+//多少组
     func numberOfSectionForFoldTableView(tableView:FoldTableView) -> Int;
     
     //组高
