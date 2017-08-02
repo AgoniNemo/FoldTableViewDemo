@@ -13,7 +13,16 @@ class TestViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = UIColor.white;
+        
+        
+    }
+    
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let vc = ViewController.init();
+        
+        self.navigationController?.pushViewController(vc, animated: true);
     }
 
     override func didReceiveMemoryWarning() {

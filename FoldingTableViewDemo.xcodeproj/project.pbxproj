@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		479F31BA1F5C26AE89FF157A /* Pods_FoldingTableViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9BA7FF88F0D0598D9BB7D2 /* Pods_FoldingTableViewDemo.framework */; };
+		BA71945F1F189DDB0066D482 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA71945E1F189DDB0066D482 /* TestViewController.swift */; };
 		BA7B453A1F1318FA00456E71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B45391F1318FA00456E71 /* AppDelegate.swift */; };
 		BA7B453C1F1318FA00456E71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B453B1F1318FA00456E71 /* ViewController.swift */; };
 		BA7B453F1F1318FA00456E71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA7B453D1F1318FA00456E71 /* Main.storyboard */; };
@@ -33,7 +35,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BA8B7E5A1F1608C2006E97CF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A54612FC12C4C95A1E5F6EC9 /* Pods-FoldingTableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoldingTableViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoldingTableViewDemo/Pods-FoldingTableViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BA71945E1F189DDB0066D482 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		BA7B45361F1318FA00456E71 /* FoldingTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoldingTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA7B45391F1318FA00456E71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA7B453B1F1318FA00456E71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +64,8 @@
 		BA7B45551F1318FB00456E71 /* FoldingTableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoldingTableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA7B45591F1318FB00456E71 /* FoldingTableViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldingTableViewDemoUITests.swift; sourceTree = "<group>"; };
 		BA7B455B1F1318FB00456E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE9BA7FF88F0D0598D9BB7D2 /* Pods_FoldingTableViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoldingTableViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE34236306878767C2D06ED1 /* Pods-FoldingTableViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoldingTableViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoldingTableViewDemo/Pods-FoldingTableViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				479F31BA1F5C26AE89FF157A /* Pods_FoldingTableViewDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +94,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16400FA18576190EA1F68269 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A54612FC12C4C95A1E5F6EC9 /* Pods-FoldingTableViewDemo.debug.xcconfig */,
+				EE34236306878767C2D06ED1 /* Pods-FoldingTableViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		472F124DBE01B7663ECC4A08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE9BA7FF88F0D0598D9BB7D2 /* Pods_FoldingTableViewDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA7B452D1F1318FA00456E71 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +118,8 @@
 				BA7B454D1F1318FA00456E71 /* FoldingTableViewDemoTests */,
 				BA7B45581F1318FB00456E71 /* FoldingTableViewDemoUITests */,
 				BA7B45371F1318FA00456E71 /* Products */,
+				472F124DBE01B7663ECC4A08 /* Frameworks */,
+				16400FA18576190EA1F68269 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +138,7 @@
 			children = (
 				BA7B45391F1318FA00456E71 /* AppDelegate.swift */,
 				BA7B453B1F1318FA00456E71 /* ViewController.swift */,
+				BA71945E1F189DDB0066D482 /* TestViewController.swift */,
 				BA7B453D1F1318FA00456E71 /* Main.storyboard */,
 				BA7B45401F1318FA00456E71 /* Assets.xcassets */,
 				BA7B45421F1318FA00456E71 /* LaunchScreen.storyboard */,
@@ -132,9 +172,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA7B455E1F1318FB00456E71 /* Build configuration list for PBXNativeTarget "FoldingTableViewDemo" */;
 			buildPhases = (
+				A51B4A2067487751F215DBA1 /* [CP] Check Pods Manifest.lock */,
 				BA7B45321F1318FA00456E71 /* Sources */,
 				BA7B45331F1318FA00456E71 /* Frameworks */,
 				BA7B45341F1318FA00456E71 /* Resources */,
+				BA8B7E5A1F1608C2006E97CF /* Embed Frameworks */,
+				773F3706C01B9FBC172DF7C5 /* [CP] Embed Pods Frameworks */,
+				B87EC35B17B4AC91E15FCC3D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +237,7 @@
 				TargetAttributes = {
 					BA7B45351F1318FA00456E71 = {
 						CreatedOnToolsVersion = 8.3;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					BA7B45491F1318FA00456E71 = {
 						CreatedOnToolsVersion = 8.3;
@@ -254,6 +298,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		773F3706C01B9FBC172DF7C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoldingTableViewDemo/Pods-FoldingTableViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A51B4A2067487751F215DBA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B87EC35B17B4AC91E15FCC3D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoldingTableViewDemo/Pods-FoldingTableViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA7B45321F1318FA00456E71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +353,7 @@
 			files = (
 				BA7B453C1F1318FA00456E71 /* ViewController.swift in Sources */,
 				BA7B453A1F1318FA00456E71 /* AppDelegate.swift in Sources */,
+				BA71945F1F189DDB0066D482 /* TestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,24 +505,32 @@
 		};
 		BA7B455F1F1318FB00456E71 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A54612FC12C4C95A1E5F6EC9 /* Pods-FoldingTableViewDemo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FoldingTableViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Nemo.FoldingTableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		BA7B45601F1318FB00456E71 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE34236306878767C2D06ED1 /* Pods-FoldingTableViewDemo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FoldingTableViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Nemo.FoldingTableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -507,6 +608,7 @@
 				BA7B45601F1318FB00456E71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA7B45611F1318FB00456E71 /* Build configuration list for PBXNativeTarget "FoldingTableViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +617,7 @@
 				BA7B45631F1318FB00456E71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA7B45641F1318FB00456E71 /* Build configuration list for PBXNativeTarget "FoldingTableViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +626,7 @@
 				BA7B45661F1318FB00456E71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
