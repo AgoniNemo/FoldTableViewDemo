@@ -12,11 +12,13 @@ pod 'FoldTableView', '~> 1.0.9'
 
 ### USE
 ```
-		let tableView = FoldTableView.init(frame: CGRect(x:0,y:0,width:375,height:667),style: .plain);
-        tableView.foldDelegate = self;
-        tableView.defOpenIdx = 2;
-        tableView.otherIsClose = false;
-        self.view.addSubview(tableView);
+let tableView = FoldTableView.init(frame: CGRect(x:0,y:0,width:375,height:667),style: .plain);
+tableView.foldDelegate = self;
+// 默认开始下标为2的组
+tableView.defOpenIdx = 2;
+// 在点击其他组时，是否需要关闭当前组（false不需要，true需要,默认为true）
+tableView.otherIsClose = false;
+self.view.addSubview(tableView);
 ```
 
 ### FoldTableViewDelegate
