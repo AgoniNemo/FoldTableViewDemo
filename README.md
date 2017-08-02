@@ -1,5 +1,5 @@
 # FoldTableView
----
+
 ![](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat) 
 
 类似于qq好友列表的收缩效果，两种收缩效果选择
