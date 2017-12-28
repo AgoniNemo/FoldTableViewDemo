@@ -13,7 +13,7 @@ class ViewController: UIViewController,FoldTableViewDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.view.backgroundColor  = UIColor.white
         let tableView = FoldTableView.init(frame: CGRect(x:0,y:0,width:375,height:667), style: .plain);
         tableView.foldDelegate = self;
         tableView.defOpenIdx = 2;
